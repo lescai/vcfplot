@@ -16,8 +16,8 @@ VignetteBuilder: knitr
 Depends: 
     R (>= 2.10),
     dplyr,
-    ggplot2
+    ggplot2,
+    VariantAnnotation
 RoxygenNote: 7.0.2
 Imports: 
-    VariantAnnotation,
     tibble

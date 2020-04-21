@@ -15,11 +15,8 @@
 #' @importFrom tibble as_tibble
 #'
 vcf_histogram <- function(vcf, ...) {
-  require(VariantAnnotation)
-  require(dplyr)
-  require(ggplot2)
 
-  info <- as_tibble(info(exVCF))
+  info <- as_tibble(info(vcf))
 
   plot <- info %>%
     group_by(consequence) %>%
