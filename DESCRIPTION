@@ -14,6 +14,7 @@ Suggests:
     rmarkdown,
     testthat
 VignetteBuilder: knitr
+biocViews:
 Depends: 
     R (>= 2.10),
     dplyr,
