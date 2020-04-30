@@ -12,6 +12,7 @@
 #' }
 #' @import dplyr
 #' @import ggplot2
+#' @import VariantAnnotation
 #' @importFrom tibble as_tibble
 #'
 vcf_histogram <- function(vcf, ...) {

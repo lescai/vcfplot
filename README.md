@@ -2,6 +2,7 @@
 # vcfplot
 
 <!-- badges: start -->
+[![R build status](https://github.com/nibscles/vcfplot/workflows/R-CMD-check/badge.svg)](https://github.com/nibscles/vcfplot/actions)
 <!-- badges: end -->
 
 The goal of vcfplot is to ...
